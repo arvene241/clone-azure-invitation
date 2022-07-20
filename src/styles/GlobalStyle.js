@@ -24,7 +24,6 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export const Azure = styled.main`
-  width: 640px;
   max-width: 640px;
   margin: auto;
   margin-bottom: 48px;
