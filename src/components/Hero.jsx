@@ -8,10 +8,11 @@ import {
   LogoLink,
   Nav,
 } from "../styles/GlobalStyle";
-import logo from "../assets/logo.png";
+import logo from "../assets/paascu-logo.png";
 import banner from "../assets/azure-email-hero.png";
 import Button from "./Button";
 import Footer from "./Footer";
+import { contentData } from "../data/ContentData";
 
 export default function Hero() {
   return (
@@ -25,69 +26,33 @@ export default function Hero() {
         </p>
       </Nav>
       <Container>
-        <LogoLink href="https://azure.microsoft.com/">
-          <img src={logo} alt="logo" />
+        <LogoLink href={contentData.homepage_link}>
+          <img src={contentData.logo} alt="logo" />  PAASCU
         </LogoLink>
       </Container>
       <Banner>
-        <p>
-          Microsoft Azure Virtual Training Day: <br /> Data Fundamentals
-        </p>
+        <p>{contentData.title}</p>
         <img src={banner} alt="banner" />
       </Banner>
       <Container>
         <Content>
+          <p>{contentData.content}</p>
+          <p>{contentData.content1}</p>
           <p>
-            Learn the fundamentals of core database concepts in a cloud
-            environment at{" "}
-            <a href="https://mktoevents.com/Microsoft+Event/351998/157-GQE-382?mkt_tok=MTU3LUdRRS0zODIAAAGFmW2g6jmNR1fBjdQxgvNL0UrdhmOhxImLKaavBDaxBwC68t2yic0JvXzFeWABHFtdBcqekDTOSbRh4U9DMT3kRrjNP2OINqNtXfYirPmoH26s-zCQAiiX8OoN" target="_blank" rel="noreferrer noopener">
-              {" "}
-              Microsoft Azure Virtual Training Day: Data Fundamentals.
-            </a>{" "}
-            Join us at this free virtual event to build your foundational
-            knowledge of cloud data services in Azure. You’ll explore relational
-            and nonrelational data offerings, including key capabilities and
-            provisioning. You’ll also learn about big data and modern data
-            warehouse analytics solutions in Azure.
-          </p>
-          <p>
-            After completing this training, you’ll be eligible to take the{" "}
-            <a href="https://emails.microsoft.com/MTU3LUdRRS0zODIAAAGFmW2g6gITr5Tbs1xd-6p3jucYcveJi0zkAuVNqma9UOXOkxcZlGNkQwnO-e0rF2Ovelv51ro=" target="_blank" rel="noreferrer noopener">
-              {" "}
-              Microsoft Azure Data Fundamentals certification exam
-            </a>{" "}
-            at no cost.
-          </p>
-          <p>You will have the opportunity to:</p>
-          <ul>
-            <li>
-              Learn the roles, tasks and responsibilities involved in managing
-              data in a cloud environment.
-            </li>
-            <li>
-              Gain basic skills for working with relational and non-relational
-              cloud data services in Azure.
-            </li>
-            <li>
-              Explore processing options for building data analytics solutions,
-              including Azure Synapse Analytics, Azure Databricks and Azure
-              HDInsight.
-            </li>
-          </ul>
-          <p>
-            Join us at an upcoming virtual event: <br />
-            10 Aug 2022 10:00 AM - 1:30 PM (GMT+08:00) Singapore <br />
-            11 Aug 2022 10:00 AM - 1:15 PM (GMT+08:00) Singapore <br /> <br />
-            Delivery Language: English <br />
-            Closed Captioning Language(s): English
+            Username: <strong>{contentData.username}</strong> <br />
+            Password: <strong>{contentData.password}</strong> <br />
           </p>
         </Content>
         <Center>
           <Button />
           <p>
-            Didn’t see a date that works for you?{" "}
-            <a href="https://emails.microsoft.com/MTU3LUdRRS0zODIAAAGFmW2g6g5DYIKIfcJB6nR_7WnWbQHs67ScxpRD897WtrGDlZ6Rr6XA-tj7L9LPNIqt0svi-m8=" target="_blank" rel="noreferrer noopener">
-              Explore more upcoming events.
+            Did you have a problem signin in to your account?{" "}
+            <a
+              href={contentData.support_link}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Support
             </a>
           </p>
         </Center>

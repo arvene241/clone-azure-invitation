@@ -75,14 +75,17 @@ export const Content = styled.div`
 `;
 
 export const LogoLink = styled.a`
+  color: #008102;
+  font-weight: bold;
+
   img {
-    height: 100%;
+    width: 25px;
+    height: 25px;
     vertical-align: bottom;
   }
 `;
 
 export const Banner = styled.div`
-  height: 235px;
   max-width: 640px;
   background-color: #3c3c41;
 
@@ -151,11 +154,7 @@ export const FooterStyle = styled.footer`
       border-bottom: 1px solid #5e5e5e;
     }
   }
-
-  img {
-    width: 75px;
-    height: 16px;
-  }
+  
 `;
 
 export default GlobalStyle;

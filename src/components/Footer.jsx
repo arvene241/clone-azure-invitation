@@ -1,6 +1,7 @@
 import React from "react";
-import { FooterStyle } from "../styles/GlobalStyle";
-import footericon from '../assets/footer-iconpng.png'
+import { FooterStyle, LogoLink } from "../styles/GlobalStyle";
+import footericon from "../assets/footer-iconpng.png";
+import { contentData } from "../data/ContentData";
 
 export default function Footer() {
   return (
@@ -9,14 +10,14 @@ export default function Footer() {
         <a href="">Unsubscribe</a> | <a href="">Privacy Statement</a>
       </p>
       <p>
-        Microsoft Asia-Pacific HQ <br />
-        Frasers Tower, 182 Cecil Street, #13-01 <br />
-        069547, Singapore​​​​
+        PAASCU <br />
+        Unit 107 The Tower at Emerald Square, <br />
+        J.P. Rizal corner P. Tuazon Streets, Quezon City 1109
       </p>
       <br />
-      <a href="https://www.microsoft.com/en-ph/">
-        <img src={footericon} alt="footer-icon"/>
-      </a>
+      <LogoLink href={contentData.homepage_link}>
+        <img src={contentData.logo} alt="logo" /> PAASCU
+      </LogoLink>
     </FooterStyle>
   );
 }
