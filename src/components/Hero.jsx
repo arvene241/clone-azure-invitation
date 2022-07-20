@@ -40,7 +40,7 @@ export default function Hero() {
           <p>
             Learn the fundamentals of core database concepts in a cloud
             environment at{" "}
-            <a href="https://mktoevents.com/Microsoft+Event/351998/157-GQE-382?mkt_tok=MTU3LUdRRS0zODIAAAGFmW2g6jmNR1fBjdQxgvNL0UrdhmOhxImLKaavBDaxBwC68t2yic0JvXzFeWABHFtdBcqekDTOSbRh4U9DMT3kRrjNP2OINqNtXfYirPmoH26s-zCQAiiX8OoN">
+            <a href="https://mktoevents.com/Microsoft+Event/351998/157-GQE-382?mkt_tok=MTU3LUdRRS0zODIAAAGFmW2g6jmNR1fBjdQxgvNL0UrdhmOhxImLKaavBDaxBwC68t2yic0JvXzFeWABHFtdBcqekDTOSbRh4U9DMT3kRrjNP2OINqNtXfYirPmoH26s-zCQAiiX8OoN" target="_blank" rel="noreferrer noopener">
               {" "}
               Microsoft Azure Virtual Training Day: Data Fundamentals.
             </a>{" "}
@@ -52,7 +52,7 @@ export default function Hero() {
           </p>
           <p>
             After completing this training, you’ll be eligible to take the{" "}
-            <a href="https://emails.microsoft.com/MTU3LUdRRS0zODIAAAGFmW2g6gITr5Tbs1xd-6p3jucYcveJi0zkAuVNqma9UOXOkxcZlGNkQwnO-e0rF2Ovelv51ro=">
+            <a href="https://emails.microsoft.com/MTU3LUdRRS0zODIAAAGFmW2g6gITr5Tbs1xd-6p3jucYcveJi0zkAuVNqma9UOXOkxcZlGNkQwnO-e0rF2Ovelv51ro=" target="_blank" rel="noreferrer noopener">
               {" "}
               Microsoft Azure Data Fundamentals certification exam
             </a>{" "}
@@ -86,7 +86,7 @@ export default function Hero() {
           <Button />
           <p>
             Didn’t see a date that works for you?{" "}
-            <a href="https://emails.microsoft.com/MTU3LUdRRS0zODIAAAGFmW2g6g5DYIKIfcJB6nR_7WnWbQHs67ScxpRD897WtrGDlZ6Rr6XA-tj7L9LPNIqt0svi-m8=">
+            <a href="https://emails.microsoft.com/MTU3LUdRRS0zODIAAAGFmW2g6g5DYIKIfcJB6nR_7WnWbQHs67ScxpRD897WtrGDlZ6Rr6XA-tj7L9LPNIqt0svi-m8=" target="_blank" rel="noreferrer noopener">
               Explore more upcoming events.
             </a>
           </p>
